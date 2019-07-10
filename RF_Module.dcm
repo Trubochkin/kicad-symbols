@@ -18,6 +18,12 @@ K iot lora sigfox
 F https://wireless.murata.com/RFM/data/type_abz.pdf
 $ENDCMP
 #
+$CMP Core51822_B
+D BLE4.0 Bluetooth 2.4G Wireless Module, nRF51822 Onboard
+K Core51822 Waveshare Bluetooth
+F https://www.waveshare.com/wiki/Core51822_(B)
+$ENDCMP
+#
 $CMP D52MxxM8
 D D52M Module, nRF52832 SoC, ARM Cortex-M4F, 64kB RAM, 512kB Flash, 1.7-3.6V, M8-35
 K RF Radio ANT Bluetooth BLE D52 nRF52 Garmin Canada Dynastream Nordic
@@ -106,6 +112,12 @@ $CMP ESP32-WROOM-32U
 D RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, SMD
 K RF Radio BT ESP ESP32 Espressif external U.FL antenna
 F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
+$ENDCMP
+#
+$CMP JDY-08
+D JDY-08 Bluetooth transparent transmission module
+K Bluetooth CC2541 BLE JDY-08
+F https://fccid.io/2AM2YJDY-08/User-Manual/User-Manual-3511895.pdf
 $ENDCMP
 #
 $CMP MM002
