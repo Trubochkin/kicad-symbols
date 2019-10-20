@@ -384,6 +384,12 @@ K diode Schottky SCHDPAK
 F ~
 $ENDCMP
 #
+$CMP D_Schottky_R
+D Schottky diode
+K diode Schottky
+F ~
+$ENDCMP
+#
 $CMP D_Schottky_Small
 D Schottky diode, small symbol
 K diode Schottky
