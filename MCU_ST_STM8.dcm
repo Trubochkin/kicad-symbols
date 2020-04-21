@@ -90,6 +90,12 @@ K STM8 Microcontroller Value Line
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00024550.pdf
 $ENDCMP
 #
+$CMP STM8S005K6T
+D 16MHz, 32K Flash, 2K RAM, 128 EEPROM, LQFP32 (7x7mm, 0.8mm pitch)
+K STM8 Microcontroller Value Line
+F https://www.st.com/resource/en/datasheet/stm8s005c6.pdf
+$ENDCMP
+#
 $CMP STM8S207C6
 D 24 MHz, 32 KB Flash, 2KB EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, LQFP-48
 K STM8 Microcontroller Performance Line
