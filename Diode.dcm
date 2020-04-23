@@ -1662,6 +1662,12 @@ K diode
 F http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF
 $ENDCMP
 #
+$CMP NSI45025
+D 7.5V, 25mA Constant Current Regulator, SOD-123F
+K Constant Current Regulator, LED Driver
+F https://www.onsemi.com/pub/Collateral/NSI45025A-D.PDF
+$ENDCMP
+#
 $CMP NSR0340HT1G
 D 40V 0.25A Schottky Diode, SOD-323
 K diode Schottky
