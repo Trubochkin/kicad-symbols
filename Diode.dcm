@@ -1662,6 +1662,12 @@ K diode
 F http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF
 $ENDCMP
 #
+$CMP NSI45025
+D 7.5V, 25mA Constant Current Regulator, SOD-123F
+K Constant Current Regulator, LED Driver
+F https://www.onsemi.com/pub/Collateral/NSI45025A-D.PDF
+$ENDCMP
+#
 $CMP NSR0340HT1G
 D 40V 0.25A Schottky Diode, SOD-323
 K diode Schottky
@@ -2086,6 +2092,12 @@ $CMP SM712_SOT23
 D 7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23
 K transient voltage suppressor thyrector transil
 F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP SMAJ10
+D 400W unidirectional Transient Voltage Suppressor, SMA (DO-214AC)
+K diode TVS voltage suppressor
+F https://www.vishay.com/docs/88390/smaj50a.pdf
 $ENDCMP
 #
 $CMP SMZxxx
