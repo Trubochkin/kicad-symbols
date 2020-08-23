@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1EDN7550B
+D Single-Channel EiceDRIVER With True Differential Inputs, 4V UVLO, +4/-8A, SOT-23-6
+K Driver, Dual MOSFET
+F https://www.infineon.com/dgdl/Infineon-1EDN7550B-DS-v02_00-EN.pdf?fileId=5546d46262b31d2e01635d9799ef264f
+$ENDCMP
+#
+$CMP 1EDN8550B
+D Single-Channel EiceDRIVER With True Differential Inputs, 8V UVLO, +4/-8A, SOT-23-6
+K Driver, Dual MOSFET
+F https://www.infineon.com/dgdl/Infineon-1EDN7550B-DS-v02_00-EN.pdf?fileId=5546d46262b31d2e01635d9799ef264f
+$ENDCMP
+#
 $CMP ACPL-336J
 D 2.5A Gate Drive Optocoupler with Integrated LED Driver, Active Miller Clamp, DESAT Detection, and Fault & UVLO Status Feedback, SOIC-16
 K Gate Driver IGBT
@@ -22,6 +34,12 @@ $CMP AN34092B
 D Single-Channel GaN-Tr High-Speed Gate Driver, Output Current 6.0A, 24V, -5V Negative Gate Voltage, HQFN-16
 K GaN Gate Driver
 F https://industrial.panasonic.com/content/data/SC/ds/ds4/AN34092B_E.pdf
+$ENDCMP
+#
+$CMP BSP75N
+D Self-Protected Low Side Driver with Temperature and Current Limit, SOT−223
+K MOSFET ESD Overcurrent
+F https://www.infineon.com/dgdl/Infineon-BSP75N-DS-v01_04-en.pdf?fileId=db3a30431ed1d7b2011f471f5a0256d1
 $ENDCMP
 #
 $CMP EL7202CN
@@ -57,7 +75,7 @@ $ENDCMP
 $CMP FAN7371
 D High-Current High-Side Gate Driver, 600V Vs, 4A Io, SOIC-8
 K high-side gate driver
-F https://www.fairchildsemi.com/datasheets/FA/FAN7371.pdf
+F https://www.onsemi.com/pub/Collateral/FAN7371-D.pdf
 $ENDCMP
 #
 $CMP FAN7388
@@ -148,6 +166,18 @@ $CMP HIP4081A
 D High Frequency Full Bridge FET Driver, 2.5A, 80V, DIP-20/SOIC-20
 K Half Bridge Gate Driver
 F http://www.intersil.com/content/dam/Intersil/documents/hip4/hip4080a.pdf
+$ENDCMP
+#
+$CMP HIP4082xB
+D 80V, 1.25A Peak Current H-Bridge FET Driver, SOIC-16
+K Driver H-bridge
+F https://www.renesas.com/www/doc/datasheet/hip4082.pdf
+$ENDCMP
+#
+$CMP HIP4082xP
+D 80V, 1.25A Peak Current H-Bridge FET Driver, DIP-16
+K Driver H-bridge
+F https://www.renesas.com/www/doc/datasheet/hip4082.pdf
 $ENDCMP
 #
 $CMP ICL7667
@@ -774,6 +804,54 @@ K high-side mosfet-driver
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4440fb.pdf
 $ENDCMP
 #
+$CMP MAX15012AxSA
+D High Frequency Half Bridge Driver, Output Current 2.0A, 175V, CMOS Input, SOIC-8
+K Half Bridge Gate Driver
+F https://datasheets.maximintegrated.com/en/ds/MAX15012-MAX15013B.pdf
+$ENDCMP
+#
+$CMP MAX15012BxSA
+D High Frequency Half Bridge Driver, Output Current 2.0A, 175V, CMOS Input, SOIC-8
+K Half Bridge Gate Driver
+F https://datasheets.maximintegrated.com/en/ds/MAX15012-MAX15013B.pdf
+$ENDCMP
+#
+$CMP MAX15012CxSA
+D High Frequency Half Bridge Driver, Output Current 2.0A, 175V, CMOS Input, SOIC-8
+K Half Bridge Gate Driver
+F https://datasheets.maximintegrated.com/en/ds/MAX15012-MAX15013B.pdf
+$ENDCMP
+#
+$CMP MAX15012DxSA
+D High Frequency Half Bridge Driver, Output Current 2.0A, 175V, CMOS Input, SOIC-8
+K Half Bridge Gate Driver
+F https://datasheets.maximintegrated.com/en/ds/MAX15012-MAX15013B.pdf
+$ENDCMP
+#
+$CMP MAX15013AxSA
+D High Frequency Half Bridge Driver, Output Current 2.0A, 175V, TTL Input, SOIC-8
+K Half Bridge Gate Driver
+F https://datasheets.maximintegrated.com/en/ds/MAX15012-MAX15013B.pdf
+$ENDCMP
+#
+$CMP MAX15013BxSA
+D High Frequency Half Bridge Driver, Output Current 2.0A, 175V, TTL Input, SOIC-8
+K Half Bridge Gate Driver
+F https://datasheets.maximintegrated.com/en/ds/MAX15012-MAX15013B.pdf
+$ENDCMP
+#
+$CMP MAX15013CxSA
+D High Frequency Half Bridge Driver, Output Current 2.0A, 175V, TTL Input, SOIC-8
+K Half Bridge Gate Driver
+F https://datasheets.maximintegrated.com/en/ds/MAX15012-MAX15013B.pdf
+$ENDCMP
+#
+$CMP MAX15013DxSA
+D High Frequency Half Bridge Driver, Output Current 2.0A, 175V, TTL Input, SOIC-8
+K Half Bridge Gate Driver
+F https://datasheets.maximintegrated.com/en/ds/MAX15012-MAX15013B.pdf
+$ENDCMP
+#
 $CMP MC33152
 D High Speed Dual MOSFET Drivers, 1.5A, -40 to 125C, DIP-8/SOIC-8
 K Driver, Dual MOSFET
@@ -850,6 +928,12 @@ $CMP MIC4604YM
 D 85V Half-Bridge MOSFET Driver with up to 16V Programmable Gate Drive, SOIC-8
 K Half-Bridge Gate Driver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005852A.pdf
+$ENDCMP
+#
+$CMP NCD5702
+D High Current IGBT Gate, +4/-6A, SOIC-16
+K igbt gate driver
+F https://www.onsemi.com/pub/Collateral/NCD5702-D.PDF
 $ENDCMP
 #
 $CMP NCV8402xST
@@ -970,6 +1054,18 @@ $CMP ZXGD3009E6
 D 2A (peak) Gate driver, 40V, SOT-23-6
 K gate driver
 F https://www.diodes.com/assets/Datasheets/ZXGD3009E6.pdf
+$ENDCMP
+#
+$CMP FL5150MX
+D IGBT and MOSFET, AC Phase Cut, Dimmer Controller, SSOP-10
+K dimmer
+F https://www.onsemi.com/pub/Collateral/FL5150-D.pdf
+$ENDCMP
+#
+$CMP FL5160MX
+D IGBT and MOSFET, AC Phase Cut, Dimmer Controller, SSOP-10
+K dimmer
+F https://www.onsemi.com/pub/Collateral/FL5150-D.pdf
 $ENDCMP
 #
 #End Doc Library
