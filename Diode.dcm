@@ -1716,6 +1716,126 @@ K diode Schottky
 F https://www.onsemi.com/pub/Collateral/NSR0340H-D.PDF
 $ENDCMP
 #
+$CMP PMEG030V030EPD
+D 30V, 3A low Vf MEGA Schottky barrier rectifier, SOT-1289
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG030V030EPD.pdf
+$ENDCMP
+#
+$CMP PMEG030V050EPD
+D 30V, 5A low Vf MEGA Schottky barrier rectifier, SOT-1289
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG030V050EPD.pdf
+$ENDCMP
+#
+$CMP PMEG040V030EPD
+D 40V, 3A low Vf MEGA Schottky barrier rectifier, SOT-1289
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG040V030EPD.pdf
+$ENDCMP
+#
+$CMP PMEG040V050EPD
+D 40V, 5A low Vf MEGA Schottky barrier rectifier, SOT-1289
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG040V050EPD.pdf
+$ENDCMP
+#
+$CMP PMEG045T050EPD
+D 45V, 5A low Vf Trench MEGA Schottky barrier rectifier, SOT-1289
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG045T050EPD.pdf
+$ENDCMP
+#
+$CMP PMEG045T100EPD
+D 45V, 10A low Vf Trench MEGA Schottky barrier rectifier, SOT-1289
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG045T100EPD.pdf
+$ENDCMP
+#
+$CMP PMEG045T150EIPD
+D 45V, 15A low Vf Trench MEGA Schottky barrier rectifier, SOT-1289
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG045T150EIPD.pdf
+$ENDCMP
+#
+$CMP PMEG045T150EPD
+D 45V, 15A low Vf Trench MEGA Schottky barrier rectifier, SOT-1289
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG045T150EPD.pdf
+$ENDCMP
+#
+$CMP PMEG045V050EPD
+D 45V, 5A low Vf MEGA Schottky barrier rectifier, SOT-1289
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG045V050EPD.pdf
+$ENDCMP
+#
+$CMP PMEG045V100EPD
+D 45V, 10A low Vf MEGA Schottky barrier rectifier, SOT-1289
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG045V100EPD.pdf
+$ENDCMP
+#
+$CMP PMEG045V150EPD
+D 45V, 15A low Vf MEGA Schottky barrier rectifier, SOT-1289
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG045V150EPD.pdf
+$ENDCMP
+#
+$CMP PMEG050T150EPD
+D 50V, 15A low Vf Trench MEGA Schottky barrier rectifier, SOT-1289
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG050T150EPD.pdf
+$ENDCMP
+#
+$CMP PMEG050V030EPD
+D 50V, 3A low Vf MEGA Schottky barrier rectifier, SOT-1289
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG050V030EPD.pdf
+$ENDCMP
+#
+$CMP PMEG050V150EPD
+D 50V, 15A low Vf MEGA Schottky barrier rectifier, SOT-1289
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG050V150EPD.pdf
+$ENDCMP
+#
+$CMP PMEG060V030EPD
+D 60V, 3A low Vf MEGA Schottky barrier rectifier, SOT-1289
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG060V030EPD.pdf
+$ENDCMP
+#
+$CMP PMEG060V050EPD
+D 60V, 5A low Vf MEGA Schottky barrier rectifier, SOT-1289
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG060V050EPD.pdf
+$ENDCMP
+#
+$CMP PMEG060V100EPD
+D 60V, 10A low Vf MEGA Schottky barrier rectifier, SOT-1289
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG060V100EPD.pdf
+$ENDCMP
+#
+$CMP PMEG100V060ELPD
+D 100V, 6A low leakage current MEGA Schottky barrier rectifier, SOT-1289
+K ir diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG100V060ELPD.pdf
+$ENDCMP
+#
+$CMP PMEG100V080ELPD
+D 100V, 8A low leakage current MEGA Schottky barrier rectifier, SOT-1289
+K ir diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG100V080ELPD.pdf
+$ENDCMP
+#
+$CMP PMEG100V100ELPD
+D 100V, 10A low leakage current MEGA Schottky barrier rectifier, SOT-1289
+K ir diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG100V100ELPD.pdf
+$ENDCMP
+#
 $CMP PMEG1020EH
 D 10V, 2A ultra low Vf MEGA Schottky barrier rectifier, SOD-123F
 K forward voltage diode
@@ -1944,6 +2064,24 @@ K forward voltage diode
 F https://assets.nexperia.com/documents/data-sheet/PMEG4050EP.pdf
 $ENDCMP
 #
+$CMP PMEG45A10EPD
+D 45V, 10A low Vf MEGA Schottky barrier rectifier, SOT-1289
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG45A10EPD.pdf
+$ENDCMP
+#
+$CMP PMEG45T15EPD
+D 45V, 15A low Vf Trench MEGA Schottky barrier rectifier, SOT-1289
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG45T15EPD.pdf
+$ENDCMP
+#
+$CMP PMEG45U10EPD
+D 45V, 10A extremely low Vf MEGA Schottky barrier rectifier, SOT-1289
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG45U10EPD.pdf
+$ENDCMP
+#
 $CMP PMEG6002EJ
 D 60V, 200mA very low Vf MEGA Schottky barrier rectifier, SOD-323F
 K forward voltage diode
@@ -2130,6 +2268,126 @@ K diode
 F http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf
 $ENDCMP
 #
+$CMP SM6T100A
+D 600W unidirectional Transil Transient Voltage Suppressor, 100Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T10A
+D 600W unidirectional Transil Transient Voltage Suppressor, 10Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T12A
+D 600W unidirectional Transil Transient Voltage Suppressor, 12Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T150A
+D 600W unidirectional Transil Transient Voltage Suppressor, 150Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T15A
+D 600W unidirectional Transil Transient Voltage Suppressor, 15Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T18A
+D 600W unidirectional Transil Transient Voltage Suppressor, 18Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T200A
+D 600W unidirectional Transil Transient Voltage Suppressor, 200Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T220A
+D 600W unidirectional Transil Transient Voltage Suppressor, 220Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T22A
+D 600W unidirectional Transil Transient Voltage Suppressor, 22Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T24A
+D 600W unidirectional Transil Transient Voltage Suppressor, 24Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T27A
+D 600W unidirectional Transil Transient Voltage Suppressor, 27Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T30A
+D 600W unidirectional Transil Transient Voltage Suppressor, 30Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T33A
+D 600W unidirectional Transil Transient Voltage Suppressor, 33Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T36A
+D 600W unidirectional Transil Transient Voltage Suppressor, 36Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T39A
+D 600W unidirectional Transil Transient Voltage Suppressor, 39Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T56A
+D 600W unidirectional Transil Transient Voltage Suppressor, 56Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T68A
+D 600W unidirectional Transil Transient Voltage Suppressor, 68Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T6V8A
+D 600W unidirectional Transil Transient Voltage Suppressor, 6.8Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T75A
+D 600W unidirectional Transil Transient Voltage Suppressor, 75Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T7V5A
+D 600W unidirectional Transil Transient Voltage Suppressor, 7.5Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
 $CMP SM712_SOT23
 D 7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23
 K transient voltage suppressor thyrector transil
@@ -2146,6 +2404,30 @@ $CMP SMZxxx
 D 2000mW Zener Diode, MELF
 K zener diode
 F https://diotec.com/tl_files/diotec/files/pdf/datasheets/smz1.pdf
+$ENDCMP
+#
+$CMP STBR3008WY
+D 800V, 30A, General Purpose Rectifier Diode, DO-247
+K AEC-Q101
+F https://www.st.com/resource/en/datasheet/stbr3008-y.pdf
+$ENDCMP
+#
+$CMP STBR3012WY
+D 1200V, 30A, General Purpose Rectifier Diode, DO-247
+K AEC-Q101
+F https://www.st.com/resource/en/datasheet/stbr3012-y.pdf
+$ENDCMP
+#
+$CMP STBR6008WY
+D 800V, 60A, General Purpose Rectifier Diode, DO-247
+K AEC-Q101
+F https://www.st.com/resource/en/datasheet/stbr6008-y.pdf
+$ENDCMP
+#
+$CMP STBR6012WY
+D 1200V, 60A, General Purpose Rectifier Diode, DO-247
+K AEC-Q101
+F https://www.st.com/resource/en/datasheet/stbr6012-y.pdf
 $ENDCMP
 #
 $CMP STTH212S
