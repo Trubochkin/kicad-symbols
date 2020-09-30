@@ -258,6 +258,12 @@ K switching buck converter
 F http://www.aosmd.com/res/data_sheets/AOZ1282CI-1.pdf
 $ENDCMP
 #
+$CMP AOZ1284PI
+D 4 A Simple Buck Regulator, 3-36V input, from 200kHz to 2MHz
+K switching buck converter
+F http://www.aosmd.com/res/data_sheets/AOZ1284PI.pdf
+$ENDCMP
+#
 $CMP AP3402
 D 1.0MHz 2A Step-Down DC-DC Buck Converter, TSOT-23-6
 K buck switching converter
@@ -3384,6 +3390,12 @@ K regulator switching adjustable
 F https://www.monolithicpower.com/pub/media/document/m/p/mp171_r1.01.pdf
 $ENDCMP
 #
+$CMP MP2307
+D 23V 3A, Step-Down Switching Regulator, 340KHz, SO-8
+K DC-DC Step-Down Switching Regulator
+F https://cdn-shop.adafruit.com/datasheets/MP2307_r1.9.pdf
+$ENDCMP
+#
 $CMP MT3608
 D High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6
 K Step-Up Boost DC-DC Regulator Adjustable
@@ -5680,6 +5692,12 @@ $CMP TPS5431DDA
 D 3A, Step Down Swift Converter, Adjustable Output Voltage, 5.5-23V Input Voltage, PowerSO-8
 K Step-Down DC-DC Switching Regulator
 F http://www.ti.com/lit/ds/symlink/tps5430.pdf
+$ENDCMP
+#
+$CMP TPS54331DR
+D 3A, Step Down DC-DC Converter with Eco-mode, 3.5-28V Input Voltage, PowerSO-8
+K Step-Down DC-DC Switching Regulator High Voltage High Frequency
+F https://www.ti.com/lit/ds/symlink/tps54331.pdf
 $ENDCMP
 #
 $CMP TPS54336ADDA
