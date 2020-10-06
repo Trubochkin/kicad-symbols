@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 18650-1S-4A
+D Battery Protection Board, Single cell, Li-Ion/Li-Po charge management controller, 4.20V, BMS
+K Battery Protection Board
+F http://www.kosmodrom.com.ua/el.php?name=186501S4ABatteryProtectionBoard
+$ENDCMP
+#
 $CMP ADP5063
 D Linear LiFePO4 Battery Charger with Power Path and USB Compatibility, LFCSP
 K LiFePo4 Battery USB PMIC
@@ -270,6 +276,12 @@ K Current-flow, voltage and temperature  measurement to support batterycapacity 
 F https://datasheets.maximintegrated.com/en/ds/DS2745.pdf
 $ENDCMP
 #
+$CMP DW01A
+D Protection IC for One-Cell Lithium-Ion
+K DW01 battery protection
+F http://hmsemi.com/downfile/DW01A.PDF
+$ENDCMP
+#
 $CMP LC709203FQH-01TWG
 D Single LiPo battery fuel gauge, I2C, type 01, WDFN-8
 K Battery gauge I2C
@@ -390,7 +402,19 @@ K lithium li-ion battery charger
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4002f.pdf
 $ENDCMP
 #
+$CMP LTC4002ES8-4.2_copy
+D Standalone Li-Ion Switch Mode Battery Charger, 4.7-22V input, single cell, SOIC-8
+K lithium li-ion battery charger
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4002f.pdf
+$ENDCMP
+#
 $CMP LTC4002ES8-8.4
+D Standalone Li-Ion Switch Mode Battery Charger, 8.9-22V input, double cell, SOIC-8
+K lithium li-ion battery charger
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4002f.pdf
+$ENDCMP
+#
+$CMP LTC4002ES8-8.4_copy
 D Standalone Li-Ion Switch Mode Battery Charger, 8.9-22V input, double cell, SOIC-8
 K lithium li-ion battery charger
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4002f.pdf
@@ -718,6 +742,12 @@ $CMP MCP73871-4CC
 D Single cell, Li-Ion/Li-Po charge management controller, 4.40V, 6h safety timer, 3.1V LBO threshold
 K battery charger lithium
 F http://www.mouser.com/ds/2/268/22090a-52174.pdf
+$ENDCMP
+#
+$CMP TP4056
+D Standalone Li-Ion Linear Mode Battery Charger, 4-8V input, single cell, SOIC-8
+K lithium li-ion battery charger
+F http://beriled.biz/data/files/tp4056new.pdf
 $ENDCMP
 #
 #End Doc Library
