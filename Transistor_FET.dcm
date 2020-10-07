@@ -2526,6 +2526,12 @@ K P-Channel HEXFET MOSFET Logic-Level
 F https://www.infineon.com/dgdl/irlml9301pbf.pdf?fileId=5546d462533600a401535668e5e42640
 $ENDCMP
 #
+$CMP IRLTS2242
+D -6.9A Id, -20V Vds, P-Channel MOSFET, TSOP-6, SOT-23
+K P-Channel MOSFET
+F https://www.infineon.com/dgdl/irlts2242pbf.pdf?fileId=5546d462533600a401535671e9a12718
+$ENDCMP
+#
 $CMP IRLZ34N
 D 30A Id, 55V Vds, 35mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220AB
 K N-Channel HEXFET MOSFET Logic-Level
