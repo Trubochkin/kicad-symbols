@@ -2598,6 +2598,12 @@ K Super Fast
 F https://www.onsemi.com/pub/Collateral/US2AA-D.PDF
 $ENDCMP
 #
+$CMP VS-30BQ040
+D 3.0 A, Schottky Rectifier Diode, SMC
+K diode schottky
+F https://www.vishay.com/docs/93332/vs-30bq040m.pdf
+$ENDCMP
+#
 $CMP VS-6ESU06
 D 600V 6.0A Ultrafast Rectifier, TO-277A
 K diode fred
