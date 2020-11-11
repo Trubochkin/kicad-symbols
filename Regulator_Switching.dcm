@@ -3390,12 +3390,6 @@ K regulator switching adjustable
 F https://www.monolithicpower.com/pub/media/document/m/p/mp171_r1.01.pdf
 $ENDCMP
 #
-$CMP MP2307
-D 23V 3A, Step-Down Switching Regulator, 340KHz, SO-8
-K DC-DC Step-Down Switching Regulator
-F https://cdn-shop.adafruit.com/datasheets/MP2307_r1.9.pdf
-$ENDCMP
-#
 $CMP MP2303ADN
 D Synchronous Rectified 3A, 28V, 360kHz Step-Down Converter, SOIC-8
 K buck converter step down
@@ -3406,6 +3400,12 @@ $CMP MP2303ADP
 D Synchronous Rectified 3A, 28V, 360kHz Step-Down Converter, DIP-8
 K buck converter step down
 F https://www.monolithicpower.com/pub/media/document/MP2303A_r1.1.pdf
+$ENDCMP
+#
+$CMP MP2307
+D 23V 3A, Step-Down Switching Regulator, 340KHz, SO-8
+K DC-DC Step-Down Switching Regulator
+F https://cdn-shop.adafruit.com/datasheets/MP2307_r1.9.pdf
 $ENDCMP
 #
 $CMP MT3608
@@ -3874,6 +3874,18 @@ $CMP NXE2S1215MC
 D 2W 12V to 15V 400mA DC-DC Converter with 3kV isolation
 K isolated isolation dc-dc converter transformer
 F https://www.murata.com/products/productdata/8807031898142/kdc-nxe2.pdf
+$ENDCMP
+#
+$CMP P10CU-0505ELF
+D +400mA Isolated 2W Single output DC/DC Converter Module, 5V Input Voltage, +5V Output Voltage, SIP7
+K Peak isolated isolation dc-dc converter
+F http://www.peak-electronics.de/wp-content/uploads/2015/09/P10CU-LU_09-15.pdf
+$ENDCMP
+#
+$CMP P6AU-0505ELF
+D 5V to 5V 200mA DC-DC Converter with 1kV isolation, SIP-4
+K Murata isolated isolation dc-dc converter transformer
+F http://www.peak-electronics.de/wp-content/uploads/2018/02/P6AU-IU.pdf
 $ENDCMP
 #
 $CMP PAM2301CAAB120
