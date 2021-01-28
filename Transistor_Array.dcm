@@ -42,6 +42,12 @@ K relays solenoids lamps steppers servos LEDs
 F http://toshiba.semicon-storage.com/info/docget.jsp?did=30523&prodName=TBD62783APG
 $ENDCMP
 #
+$CMP UDN2981A
+D 8-Channel Source Driver, DIP-18
+K 8-Channel Source Driver
+F https://www.infinite-electronic.ru/datasheet/09-UDN2981A-T.pdf
+$ENDCMP
+#
 $CMP UDN2987
 D 8-Channel Source Driver, SOIC20
 K 8-Channel Source Driver
