@@ -30,6 +30,12 @@ K STM8L Microcontroller Value Line Low Power
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220591.pdf
 $ENDCMP
 #
+$CMP STM8L151K6
+D 16MHz, 32K Flash, 2K RAM, 1K EEPROM, LQFP-32
+K STM8 Microcontroller Value Line
+F http://www.st.com/st-web-https://www.st.com/resource/en/datasheet/stm8l151c4.pdf
+$ENDCMP
+#
 $CMP STM8L152R6T
 D 16MHz, 32K Flash, 2K EEPROM, LCD, USART, I²C, SPI, ADC, DAC, LQFP-64
 K STM8L Microcontroller Low Power LCD
